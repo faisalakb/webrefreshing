@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/formstyle.css">
     <title>Document</title>
 </head>
 <body>
-    <form action="no action " method="post">
-        <label for="fname">First Name:</label>
-        <input type="text" name="" id=""placeholder="ALi"><br>
-        <label for="Email">Email :</label>
-        <input type="text" name="" id="" placeholder="unknown@gmail.com"><br>
-        <input type="textarea" name="" id="" placeholder="This is a text area"><br>
-        <button type="submit">Send your Message</button>
-        <br>
-        <br>
-        <input type="date" name="Date of Birthday" id="">
-        <input type="time">
-        <br>
-        <label for="Email">Email</label>
-        <input type="email" name="" id="">
-        <br>
-        <label for="">Url:</label>
-        <input type="url">
-        <br>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Please fill out the form below to get in touch with us.</p>
+        <p>We will get back to you as soon as possible.</p>
+        <p>We value your feedback and appreciate your time.</p>
+        <p>If you have any questions, feel free to reach out.</p>
+        <p>Your satisfaction is our priority.</p>
+        <p>Thank you for choosing us!</p>
+        <p>We look forward to hearing from you.</p>
+        <p>Best regards,</p>
+        <p>The Team</p>
+    <div class="form1">
+        <form action="no action" method="post">
+            <input type="text" name="name"  maxlength=15 placeholder="Enter your name"><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+            <input type="password" name="password" id="password" placeholder="Enter your password"><br>
+            <input type="text" maxlength="500" name="message" id="message" placeholder="Enter your message"><br>
+            <input id="idsub" type="submit" value="Submit">
+        </form>
+    </div>
+</div>
 
-    </form>
 </body>
 </html>

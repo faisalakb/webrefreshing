@@ -1,0 +1,51 @@
+.containter{
+    border: 10px solid green;
+    display: flex;
+    height: 100vh;
+}
+
+.box{
+    text-align: center;
+}
+
+.box1{
+    border: 2px solid red;
+    background-color: yellow;
+}
+
+.box2{
+    border: 2px solid greenyellow;
+    background-color: pink;
+}
+.box3{
+    border: 2px solid brown;
+    background-color: blue;
+}
+.box4{
+    border: 2px solid red;
+    background-color: yellow;
+}
+.box5{
+    border: 2px solid blue;
+    background-color: orange;
+}
+.box6{
+    border: 2px solid red;
+    background-color: yellow;
+}
+.box7{
+    border: 2px solid seagreen;
+    background-color: black;
+}
+.box8{
+    border: 2px solid red;
+    background-color: yellow;
+}
+.box9{
+    border: 2px solid forestgreen;
+    background-color: fuchsia;
+}
+.box10{
+    border: 2px solid red;
+    background-color: yellow;
+}
